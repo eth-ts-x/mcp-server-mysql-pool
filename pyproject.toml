@@ -1,0 +1,10 @@
+[project]
+name = "mcp-server-mysql-pool"
+version = "0.1.0"
+description = "This MCP server connects to your MySQL database, providing seamless access to database schemas, tables, and query capabilities through"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiomysql>=0.2.0",
+    "mcp[cli]>=1.7.1",
+]
